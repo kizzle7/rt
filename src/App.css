@@ -1,0 +1,122 @@
+.accord {
+  margin-left: 0px;
+  padding: 5px;
+  border-radius: 10px;
+  color: white !important;
+}
+.fixer {
+  top: 0em;
+  position: fixed;
+  z-index: 100;
+}
+
+.accord2 {
+  border: 1px solid skyblue;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  margin-left: 300px;
+}
+
+.accord2 {
+  border: 1px solid skyblue;
+  margin-left: 4px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  margin-top: 0em;
+}
+
+.nav1 {
+  border: 2px solid silver;
+  background-color: silver;
+  color: blue;
+  height: 3.2em;
+}
+.nav2 {
+  border: 2px solid rgb(33, 36, 51);
+  background-color: rgb(33, 36, 51);
+  color: white;
+  height: 5em;
+  padding: 4px 0px;
+  font-weight: bold;
+}
+.nav3 {
+  border: 2px solid rgb(175, 188, 252);
+  background-color: rgb(109, 159, 187);
+  color: white;
+  height: 4em;
+  padding: 4px 0px;
+  font-weight: bold;
+}
+
+.hover a:hover {
+  background-color: rgb(109, 159, 187);
+}
+.dash {
+  background-color: rgb(109, 159, 187);
+}
+.bg {
+  background-color: rgb(33, 36, 51) !important;
+  color: white !important;
+}
+
+.fa.pcBar {
+  display: none;
+}
+@media screen and (min-width: 990px) {
+  .vert {
+    margin-left: 256px;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar .navbar-toggler {
+    display: block;
+  }
+
+  /*************************************************** */
+  .fa.pcBar {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .perfect-scrollbar-on .sidebar {
+    /* display: none; */
+  }
+
+  .main-panel {
+    /* position: relative;
+    float: right; */
+    /* width: calc(100% - 260px); */
+    /* width: 100%; */
+    /* background-color: #f4f3ef;
+    transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1); */
+  }
+
+  /******************************************************/
+}
+
+.sidy {
+  width: 20%;
+  background-color: rgb(33, 36, 51) !important;
+  color: white;
+  height: 100vh;
+}
+
+.sid {
+  background-color: silver;
+}
+.thanks {
+  padding-top: 220px;
+  padding-bottom: 40px;
+  text-align-last: center;
+  font-weight: bolder;
+}
+
+.login-bg {
+  background-color: rgb(216, 229, 237);
+}
+
+.choosen {
+  background-color: rgb(109, 159, 187);
+}
